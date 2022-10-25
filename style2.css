@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: beige;
+}
+.navbar{
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: inline-flex;
+    align-items: center;
+}
+.logo{
+    width: 75px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+nav {
+    flex: 1;
+    padding-left: 60px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+ }
+ nav ul li a{
+     text-decoration: none;
+     color: #333;
+ }
+ nav ul li a:hover{
+     background-color: darkorange;
+     color: black;
+     padding: 14px 20px;
+ }
+ nav ul li a:active{
+     color: purple;
+ }
+
+ .content h1{
+     font-size: 60px;
+     font-family: "Harlow Solid Italic",serif;
+     font-weight: 100;
+     margin-top: 24px;
+     margin-bottom: 15px;
+     color: #232d60;
+ }
+ .content p{
+     font-size: 20px;
+     font-family: "Comic Sans MS", serif;
+     color: #6a7199;
+ }
+.content{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+ .signup-buton{
+     display: inline-block;
+     list-style-type: none;
+     background: linear-gradient(45deg, #87adfe, #ff77cd);
+     border-radius: 6px;
+     top: 40px;
+     right: 80px;
+     position: absolute;
+     box-sizing: border-box;
+     color: #fff;
+     box-shadow: 3px 8px 22px rgba(94,28,68,0.15);
+ }
+.signup-buton span{
+    display: block;
+    padding: 8px 22px;
+}
+
+.picture{
+     height: 80%;
+     position: absolute;
+     bottom: 0;
+     right: 50px;
+ }
+.footer{
+    background-color: cadetblue;
+    color: #000;
+    text-align: center;
+    padding: 10px;
+    height: 20px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
